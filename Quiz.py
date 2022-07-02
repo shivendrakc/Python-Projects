@@ -12,8 +12,8 @@ question = 10
 
 def play():
     #since we imported radom module we can use random and randint is one of the func inside it
-    x = random.randint(1, 10)
-    y = random.randint(1, 10)
+    x = random.randint(1, 50)
+    y = random.randint(1, 50)
 
     opt = {
         #op means operater module as we created its alias from this module we are able to use add,sub,mul functions

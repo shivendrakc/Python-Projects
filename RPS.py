@@ -1,7 +1,5 @@
 import random
 
-
-
 def play():
     user = input("What's your choice 'r' for rock, 's' for sisscor, 'p' for paper\n")
     computer = random.choice(['r', 's', 'p'])
